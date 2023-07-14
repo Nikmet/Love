@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffcaca;
+}
+
+img{
+    width: 250px;
+    height: 300px;
+    margin-bottom: 20px;
+    transition: all 1s;
+}
+
+.btn{
+    border: 0;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: crimson;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn:active{
+    opacity: .8;
+}
